@@ -1,6 +1,6 @@
 # Ex. No.  - SIMULATION ANALYSIS ON FOUR BAR CHAIN MECHANISM
 
-## DATE: 
+## DATE: 10/03/2026
 
 ## AIM:
 
@@ -20,30 +20,52 @@
 ###  ●	Geometry instruments.
 
 ## PROCEDURE:
-###   1. Draw a horizontal line AD of length 120 mm. 
-###   2. At A, Draw a line AB of length 30 mm at an angle of 600 
-###   3. With B as centre, BC = AD = 120mm draw an arc 
-###   4. With D as centre, CD = 60 mm draw another arc 
-###   5. Join BC and DC 
+### Draw the fixed link AD = 120 mm horizontally to a suitable scale.
+
+### At point A, draw crank AB = 30 mm making an angle ∠BAD = 60° with AD.
+
+#### With center D, draw an arc of radius CD = 60 mm (since CD oscillates about D).
+
+#### With center B, draw an arc equal to BC (given equal to AD) to locate point C.
+
+#### Join B–C and C–D to complete the four-bar configuration.
+
+#### 𝜔AB=2πN/60
+	
+### (2π×100)/60=10.47 rad/s 
+#### 𝜔AB=10.47 rad/s
+
+#### Velocity of B:
+
+#### 𝑉𝐵 = 𝜔𝐴𝐵 × 𝐴𝐵 = 10.47 × 0.03 =0.314 m/s
+ 
+### Draw vector vb perpendicular to AB in direction of rotation (clockwise).
 
 ![image](https://github.com/Sellakumar1987/Ex.-No.-1.-SIMULATION-ANALYSIS-ON-FOUR-BAR-CHAIN-MECHANISM/assets/113594316/a99fb530-e8df-49bf-9b2c-d537ff992534)
 
 ###   This value of VBA is used to decide the scale for the velocity diagram 
-###   Let us construct the velocity diagram taking a scale: 
-###   0.3141 m/s = 60 mm (say) 
-###   1. The fixed link AD, appears as a point in the velocity diagram 
-###   2. From a, draw ab = 60mm, perpendicular to AB in configuration diagram and in the direction of velocity (downward direction) 
-###   3. From b, draw vector bc perpendicular to BC
-###   4. From (a,d), draw vector cd perpendicular to CD. This will intersect the previous vector at c.  
+### Given speed of crank AB = 100 rpm (clockwise).
+
+#### Choose velocity scale (example: 1 cm = 0.1 m/s or suitable scale).
+
+#### From origin o, draw vector ob = vb perpendicular to AB.
+#### From point b, draw a line perpendicular to link BC (since velocity of C relative to B is ⟂ BC).
+
+#### From origin o, draw a line perpendicular to CD (since C rotates about D).
+
+#### Intersection of these two lines gives point c.
+
+#### Measure:
+
+#### oc = velocity of C
+
+#### bc = velocity of C relative to B
+
+#### Convert measured lengths using chosen scale.
 
 ![image](https://github.com/Sellakumar1987/Ex.-No.-1.-SIMULATION-ANALYSIS-ON-FOUR-BAR-CHAIN-MECHANISM/assets/113594316/76094ae8-a8af-48f3-b2c4-472ab800cc8e)
 
 ![image](https://github.com/Sellakumar1987/Ex.-No.-1.-SIMULATION-ANALYSIS-ON-FOUR-BAR-CHAIN-MECHANISM/assets/113594316/cb44fabe-6e16-4550-a2ec-4ee0f4cb6774)
-
-###   1. First measure cd from velocity diagram  
-###   2. Now, Calculate VCd using the scale of the diagram 
-###   3. Finally, calculate ωcd from the relation v = rω 
-###   Thus, link CD revolves with ωcd = 4 rad/s (clockwise about D) 
 
 ![image](https://github.com/Sellakumar1987/Ex.-No.-1.-SIMULATION-ANALYSIS-ON-FOUR-BAR-CHAIN-MECHANISM/assets/113594316/97627fa4-0d38-412c-8745-082bd7b85299)
 
